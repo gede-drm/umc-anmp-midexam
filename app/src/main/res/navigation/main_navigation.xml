@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/itemHome">
+
+    <fragment
+        android:id="@+id/itemHome"
+        android:name="com.geded.ubayamedicalcenter.view.HomeFragment"
+        android:label="UBAYA Medical Center"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/itemDoctors"
+        android:name="com.geded.ubayamedicalcenter.view.DoctorsListFragment"
+        android:label="UBAYA Medical Center"
+        tools:layout="@layout/fragment_doctors_list">
+        <action
+            android:id="@+id/actionDoctorDetail"
+            app:destination="@id/doctorDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemPharmacy"
+        android:name="com.geded.ubayamedicalcenter.view.PharmacyFragment"
+        android:label="UBAYA Medical Center"
+        tools:layout="@layout/fragment_pharmacy">
+        <action
+            android:id="@+id/actionMedicineDetail"
+            app:destination="@id/medicineDetailFragment" />
+        <action
+            android:id="@+id/actionMedicineBoughtList"
+            app:destination="@id/medicineBoughtListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doctorDetailFragment"
+        android:name="com.geded.ubayamedicalcenter.view.DoctorDetailFragment"
+        android:label="Doctor Detail"
+        tools:layout="@layout/fragment_doctor_detail" />
+    <fragment
+        android:id="@+id/medicineDetailFragment"
+        android:name="com.geded.ubayamedicalcenter.view.MedicineDetailFragment"
+        android:label="Medicine Detail"
+        tools:layout="@layout/fragment_medicine_detail" />
+    <fragment
+        android:id="@+id/itemProfile"
+        android:name="com.geded.ubayamedicalcenter.view.ProfileFragment"
+        android:label="UBAYA Medical Center"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/medicineBoughtDetailFragment"
+        android:name="com.geded.ubayamedicalcenter.view.MedicineBoughtDetailFragment"
+        android:label="Transaction Detail"
+        tools:layout="@layout/fragment_medicine_bought_detail" />
+    <fragment
+        android:id="@+id/medicineBoughtListFragment"
+        android:name="com.geded.ubayamedicalcenter.view.MedicineBoughtListFragment"
+        android:label="Transaction History"
+        tools:layout="@layout/fragment_medicine_bought_list">
+        <action
+            android:id="@+id/actionMedicineBoughtDetail"
+            app:destination="@id/medicineBoughtDetailFragment" />
+    </fragment>
+</navigation>

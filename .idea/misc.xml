@@ -3,16 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_doctor_detail.xml" value="0.1203125" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.184" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/drawable/ic_baseline_error_outline_24.xml" value="0.184" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/consultation_list_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/doctor_list_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_consultation_list.xml" value="0.15896739130434784" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_doctor_detail.xml" value="0.22" />
         <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_doctor_list2.xml" value="0.1" />
-        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_doctors_list.xml" value="0.1" />
-        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_home.xml" value="0.1203125" />
-        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_medicine_bought_detail.xml" value="0.1" />
-        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_medicine_bought_list.xml" value="0.1203125" />
-        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_medicine_detail.xml" value="0.1203125" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_doctors_list.xml" value="0.22" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_medicine_bought_detail.xml" value="0.16666666666666666" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_medicine_bought_list.xml" value="0.22" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_medicine_detail.xml" value="0.16666666666666666" />
         <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_pharmacy.xml" value="0.1203125" />
-        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_profile.xml" value="0.1203125" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/fragment_profile.xml" value="0.3333333333333333" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/medicine_bought_list.xml" value="0.3333333333333333" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/layout/medicine_list_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/e-Book-Kuliah/6th-Semester/Advanced-Native-Mobile-Programming/UTS/geded-umc-midexam/app/src/main/res/menu/bottom_menu.xml" value="0.17447916666666666" />
       </map>
     </option>
   </component>

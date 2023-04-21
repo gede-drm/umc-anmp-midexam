@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,6 +9,39 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recViewMedicines"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/medicine_list_layout">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/txtErrorMedList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Error while loading data"
+            app:layout_constraintBottom_toBottomOf="@+id/recViewMedicines"
+            app:layout_constraintEnd_toEndOf="@+id/recViewMedicines"
+            app:layout_constraintStart_toStartOf="@+id/recViewMedicines"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/progressLoadMedList"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="@color/red_700"
+            app:layout_constraintBottom_toBottomOf="@+id/recViewMedicines"
+            app:layout_constraintEnd_toEndOf="@+id/recViewMedicines"
+            app:layout_constraintStart_toStartOf="@+id/recViewMedicines"
+            app:layout_constraintTop_toTopOf="@+id/recViewMedicines" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

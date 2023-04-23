@@ -27,7 +27,7 @@
             style="?android:attr/progressBarStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:progressTint="@color/red_700"
+            android:progressTint="@color/red_500"
             app:layout_constraintBottom_toBottomOf="@+id/recViewDoctors"
             app:layout_constraintEnd_toEndOf="@+id/recViewDoctors"
             app:layout_constraintStart_toStartOf="@+id/recViewDoctors"

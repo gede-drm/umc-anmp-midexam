@@ -27,30 +27,40 @@
         <action
             android:id="@+id/actionMedicineDetail"
             app:destination="@id/medicineDetailFragment" />
-        <action
-            android:id="@+id/actionMedicineBoughtList"
-            app:destination="@id/medicineBoughtListFragment" />
     </fragment>
     <fragment
         android:id="@+id/doctorDetailFragment"
         android:name="com.geded.ubayamedicalcenter.view.DoctorDetailFragment"
         android:label="Doctor Detail"
-        tools:layout="@layout/fragment_doctor_detail" />
+        tools:layout="@layout/fragment_doctor_detail" >
+        <argument android:name="doctorId" />
+    </fragment>
     <fragment
         android:id="@+id/medicineDetailFragment"
         android:name="com.geded.ubayamedicalcenter.view.MedicineDetailFragment"
         android:label="Medicine Detail"
-        tools:layout="@layout/fragment_medicine_detail" />
+        tools:layout="@layout/fragment_medicine_detail" >
+        <argument android:name="medId" />
+    </fragment>
     <fragment
         android:id="@+id/itemProfile"
         android:name="com.geded.ubayamedicalcenter.view.ProfileFragment"
         android:label="UBAYA Medical Center"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/actionMedBoughtList"
+            app:destination="@id/medicineBoughtListFragment" />
+        <action
+            android:id="@+id/actionConsultList"
+            app:destination="@id/consultationListFragment" />
+    </fragment>
     <fragment
         android:id="@+id/medicineBoughtDetailFragment"
         android:name="com.geded.ubayamedicalcenter.view.MedicineBoughtDetailFragment"
         android:label="Transaction Detail"
-        tools:layout="@layout/fragment_medicine_bought_detail" />
+        tools:layout="@layout/fragment_medicine_bought_detail" >
+        <argument android:name="medTransactionId" />
+    </fragment>
     <fragment
         android:id="@+id/medicineBoughtListFragment"
         android:name="com.geded.ubayamedicalcenter.view.MedicineBoughtListFragment"
@@ -60,4 +70,9 @@
             android:id="@+id/actionMedicineBoughtDetail"
             app:destination="@id/medicineBoughtDetailFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/consultationListFragment"
+        android:name="com.geded.ubayamedicalcenter.view.ConsultationListFragment"
+        android:label="fragment_consultation_list"
+        tools:layout="@layout/fragment_consultation_list" />
 </navigation>

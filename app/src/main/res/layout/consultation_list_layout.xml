@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Consultation History"
+                android:text="Appointment History"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"

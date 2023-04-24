@@ -25,7 +25,7 @@ class MedicineListViewModel(application: Application): AndroidViewModel(applicat
         medicineLoadErrorLD.value = false
 
         queue = Volley.newRequestQueue(getApplication())
-        val url = "https://www.geded.ip4amin.site/anmp-midexam/medicines.json"
+        val url = "https://www.geded.ip4amin.site/anmp-midexam/medicines.php"
 
         val stringRequest = StringRequest(Request.Method.GET, url, {
             val dType = object: TypeToken<List<Medicine>>(){}.type

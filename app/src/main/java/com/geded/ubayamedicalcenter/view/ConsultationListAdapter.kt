@@ -23,16 +23,16 @@ class ConsultationListAdapter(val consultationList:ArrayList<Consultation>):Recy
     override fun onBindViewHolder(holder: ConsultationViewHolder, position: Int) {
         holder.view.findViewById<TextView>(R.id.txtDateConsultList).text = consultationList[position].date
         holder.view.findViewById<TextView>(R.id.txtDocNameConsultList).text = consultationList[position].doctor
-        holder.view.findViewById<TextView>(R.id.txtConsultFee).text = "IDR" + NumberFormat.getInstance().format(consultationList[position].fee)
+        holder.view.findViewById<TextView>(R.id.txtFeeConsultationList).text = "IDR " + NumberFormat.getInstance().format(consultationList[position].fee)
     }
 
     override fun getItemCount(): Int {
         return consultationList.size
     }
 
-    fun updateConsultationList(newConsultaitonList:ArrayList<Consultation>){
+    fun updateConsultationList(newConsultationList:ArrayList<Consultation>){
         consultationList.clear()
-        consultationList.addAll(newConsultaitonList)
+        consultationList.addAll(newConsultationList)
         notifyDataSetChanged()
     }
 }

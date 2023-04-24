@@ -165,7 +165,7 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/btnAppoinment"
+                    android:id="@+id/btnMakeAppointment"
                     android:layout_width="0dp"
                     android:layout_height="55dp"
                     android:layout_marginStart="24dp"
@@ -191,7 +191,7 @@
                     android:textColor="@color/teal_700"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    app:layout_constraintBottom_toTopOf="@+id/btnAppoinment"
+                    app:layout_constraintBottom_toTopOf="@+id/btnMakeAppointment"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -208,7 +208,7 @@
                     android:textColor="@color/teal_700"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    app:layout_constraintBottom_toTopOf="@+id/btnAppoinment"
+                    app:layout_constraintBottom_toTopOf="@+id/btnMakeAppointment"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>

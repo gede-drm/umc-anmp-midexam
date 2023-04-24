@@ -64,7 +64,7 @@
     <fragment
         android:id="@+id/medicineBoughtListFragment"
         android:name="com.geded.ubayamedicalcenter.view.MedicineBoughtListFragment"
-        android:label="Transaction History"
+        android:label="Medicine Transaction History"
         tools:layout="@layout/fragment_medicine_bought_list">
         <action
             android:id="@+id/actionMedicineBoughtDetail"
@@ -73,6 +73,6 @@
     <fragment
         android:id="@+id/consultationListFragment"
         android:name="com.geded.ubayamedicalcenter.view.ConsultationListFragment"
-        android:label="fragment_consultation_list"
+        android:label="Appointment History"
         tools:layout="@layout/fragment_consultation_list" />
 </navigation>

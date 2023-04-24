@@ -4,7 +4,9 @@ import android.icu.text.NumberFormat
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.geded.ubayamedicalcenter.R
 import com.geded.ubayamedicalcenter.model.MedicineTransaction
@@ -26,6 +28,12 @@ class MedicineBoughtListAdapter(val medsBoughtList:ArrayList<MedicineTransaction
         holder.view.findViewById<TextView>(R.id.txtDateMBList).text = medsBoughtList[position].date
         holder.view.findViewById<TextView>(R.id.txtIDMBList).text = medsBoughtList[position].id
         holder.view.findViewById<TextView>(R.id.txtTotalPriceMBList).text = "IDR " + NumberFormat.getInstance().format(medsBoughtList[position].totalPrice)
+
+        val btnMBDetail = holder.view.findViewById<Button>(R.id.btnDetailMBList)
+        btnMBDetail.setOnClickListener {
+            val action = MedicineBoughtListFragmentDirections.actionMedicineBoughtDetail(medsBoughtList[position].id.toString(), medsBoughtList[position].date, medsBoughtList[position].totalPrice.toString())
+            Navigation.findNavController(it).navigate(action)
+        }
     }
 
     override fun getItemCount(): Int {

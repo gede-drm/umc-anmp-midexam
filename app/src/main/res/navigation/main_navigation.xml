@@ -60,6 +60,8 @@
         android:label="Transaction Detail"
         tools:layout="@layout/fragment_medicine_bought_detail" >
         <argument android:name="medTransactionId" />
+        <argument android:name="medTransactionDate" />
+        <argument android:name="medTransactionTotalPrice" />
     </fragment>
     <fragment
         android:id="@+id/medicineBoughtListFragment"

@@ -102,7 +102,7 @@
                     android:text="Schedules"
                     android:textAllCaps="false"
                     android:textColor="@color/red_500"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtDocSpecialtyDetail" />
@@ -116,7 +116,7 @@
                     android:text="Qualifications"
                     android:textAllCaps="false"
                     android:textColor="@color/red_500"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtDocSchedules" />
@@ -127,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:text="Mon 13.00-15.00\nFri 15.00-16.00"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -140,7 +140,7 @@
                     android:layout_marginEnd="24dp"
                     android:layout_marginBottom="16dp"
                     android:text="Pediatric Specialist,\nMember of Royal College of Paediatrics and Child Health from 2014.\nObtained his first degree from Universitas Airlangga, Surabaya on 2002.\nFinished his specialty degree at Universitas Airlangga, Surabaya on 2008."
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

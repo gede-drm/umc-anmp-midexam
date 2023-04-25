@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 import androidx.navigation.Navigation
 import com.geded.ubayamedicalcenter.R
 
@@ -27,6 +28,7 @@ class ProfileFragment : Fragment() {
 
         val btnAppointmentHis = view.findViewById<Button>(R.id.btnAppointmentHis)
         val btnMedTransactionHis = view.findViewById<Button>(R.id.btnMedTransactionHis)
+        val btnLogout = view.findViewById<Button>(R.id.btnLogout)
 
         btnAppointmentHis.setOnClickListener {
             val action = ProfileFragmentDirections.actionConsultList()
@@ -36,6 +38,10 @@ class ProfileFragment : Fragment() {
         btnMedTransactionHis.setOnClickListener {
             val action = ProfileFragmentDirections.actionMedBoughtList()
             Navigation.findNavController(it).navigate(action)
+        }
+
+        btnLogout.setOnClickListener {
+            Toast.makeText(activity, "Logout from UBAYA Medical Center Application", Toast.LENGTH_SHORT).show()
         }
     }
 }

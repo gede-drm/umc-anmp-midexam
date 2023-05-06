@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/itemHome"
-        android:name="com.geded.ubayamedicalcenter.view.HomeFragment"
+        android:name="com.geded.ubayamedicalcenter160420008.view.HomeFragment"
         android:label="UBAYA Medical Center"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/itemDoctors"
-        android:name="com.geded.ubayamedicalcenter.view.DoctorsListFragment"
+        android:name="com.geded.ubayamedicalcenter160420008.view.DoctorsListFragment"
         android:label="UBAYA Medical Center"
         tools:layout="@layout/fragment_doctors_list">
         <action
@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/itemPharmacy"
-        android:name="com.geded.ubayamedicalcenter.view.PharmacyFragment"
+        android:name="com.geded.ubayamedicalcenter160420008.view.PharmacyFragment"
         android:label="UBAYA Medical Center"
         tools:layout="@layout/fragment_pharmacy">
         <action
@@ -30,21 +30,21 @@
     </fragment>
     <fragment
         android:id="@+id/doctorDetailFragment"
-        android:name="com.geded.ubayamedicalcenter.view.DoctorDetailFragment"
+        android:name="com.geded.ubayamedicalcenter160420008.view.DoctorDetailFragment"
         android:label="Doctor Detail"
         tools:layout="@layout/fragment_doctor_detail" >
         <argument android:name="doctorId" />
     </fragment>
     <fragment
         android:id="@+id/medicineDetailFragment"
-        android:name="com.geded.ubayamedicalcenter.view.MedicineDetailFragment"
+        android:name="com.geded.ubayamedicalcenter160420008.view.MedicineDetailFragment"
         android:label="Medicine Detail"
         tools:layout="@layout/fragment_medicine_detail" >
         <argument android:name="medId" />
     </fragment>
     <fragment
         android:id="@+id/itemProfile"
-        android:name="com.geded.ubayamedicalcenter.view.ProfileFragment"
+        android:name="com.geded.ubayamedicalcenter160420008.view.ProfileFragment"
         android:label="UBAYA Medical Center"
         tools:layout="@layout/fragment_profile" >
         <action
@@ -56,7 +56,7 @@
     </fragment>
     <fragment
         android:id="@+id/medicineBoughtDetailFragment"
-        android:name="com.geded.ubayamedicalcenter.view.MedicineBoughtDetailFragment"
+        android:name="com.geded.ubayamedicalcenter160420008.view.MedicineBoughtDetailFragment"
         android:label="Transaction Detail"
         tools:layout="@layout/fragment_medicine_bought_detail" >
         <argument android:name="medTransactionId" />
@@ -65,7 +65,7 @@
     </fragment>
     <fragment
         android:id="@+id/medicineBoughtListFragment"
-        android:name="com.geded.ubayamedicalcenter.view.MedicineBoughtListFragment"
+        android:name="com.geded.ubayamedicalcenter160420008.view.MedicineBoughtListFragment"
         android:label="Medicine Transaction History"
         tools:layout="@layout/fragment_medicine_bought_list">
         <action
@@ -74,7 +74,7 @@
     </fragment>
     <fragment
         android:id="@+id/consultationListFragment"
-        android:name="com.geded.ubayamedicalcenter.view.ConsultationListFragment"
+        android:name="com.geded.ubayamedicalcenter160420008.view.ConsultationListFragment"
         android:label="Appointment History"
         tools:layout="@layout/fragment_consultation_list" />
 </navigation>
